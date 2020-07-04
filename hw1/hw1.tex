@@ -1,0 +1,203 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\newcommand{\powerset}[1]{\mathbb{P}(#1)}
+
+
+\begin{document}
+    \part*{Proof Practice}
+    \begin{enumerate}[(a).]
+        \item \begin{proof}
+        
+            \emph{Base Case: }$n=1,\frac{n(n+1)}{2}=1$,hold\\
+            \emph{Inductive Hypothesis: }
+            $n=k,\sum_{i=1}^{n}i=\frac{k(k+1)}{2}$\\
+            \emph{Inductive Step: }
+            $n=k+1,\sum_{i=1}^{n}i=\frac{k(k+1)}{2}+k+1=\frac{(k+1)(k+2)}{2}$\\
+            we conclude.
+        \end{proof}
+        
+        \item \begin{proof}
+        
+            Suppose $\Gamma \in \powerset{A}$, that is $\Gamma \subseteq A$\\
+            $\forall x \in \Gamma, x \in A$\\
+            since $A \subseteq B, x \in B, \Gamma \subseteq B$\\
+            so $\Gamma \in \powerset{B}$\\
+            we conclude.
+            
+        \end{proof}
+    \end{enumerate}
+
+
+    \part*{Open Set Intersection}
+    \begin{enumerate}[(a).]
+        \item Empty set is an open interval. 
+        Since any empty set can be writen as 
+        $\{x \in \mathbb{R}|x > a \wedge x < b\}$ where 
+        $a \ge b$.
+
+        \item $(a,b)\cap(c,d)$ can be writen as 
+        $\{x \in \mathbb{R}|x>\max(a,c) \wedge x<\min(b,d) \}$.
+        
+        \item \begin{proof}
+            Prove by induction.\\
+            \emph{Base Case: }n=1, $I_{1}$ is an open interval.\\
+            \emph{Inductive Hypothesis: }
+            n=k, $\cap_{i=1}^{k}$ is an open interval.\\
+            \emph{Inductive Step: }
+            n=k+1, $\cap_{i=1}^{k+1} = \cap_{i=1}^{k} \cap I_{k+1}$. 
+            Since \emph{(b)} holds, so this is also an open interval.
+        \end{proof}
+
+        \item \begin{proof}
+            Prove by contradiction.\\
+            Assume it is an open interval.\\
+            $S = \{x \ in \mathbb{R}|x > a \wedge x < b\}$, $S = {k}$.\\
+            So $a < k < b$, where $a, k, b \in \mathbb{R}$, and there must 
+            $\exists k^{1}, a < k^{1} < k$, lead $S$ contains two numbers, contradict.\\
+            We conclude.
+        \end{proof}
+
+        \item Let $I_k=(-1/k,1/k)$, 0 must be contained in set $\cap_{k=1}^{\infty}$ since 
+        $-1/k < 0 < 1/k$ always holds where $k \in \mathbb{N}$ and $k \ge 1$. If there exists 
+        another number x in the set, we can always find a $1/k \le |x|$, make x is impossible in the set. 
+        So there must exist exactly one number 0 in the set, since \emph{(d)} holds, therefore 
+        $\cap_{k=1}^{\infty}$ is not an open interval.
+
+        \item Induction can only be used to prove that a proposition holds for every natural number. 
+        However, just because a proposition holds for every finite natural number does not mean that 
+        it holds as infinity.
+    \end{enumerate}
+
+    \part*{Induction}
+    \begin{enumerate}[(a).]
+        \item \begin{proof}
+            \emph{Base Case: }$n=3, 2^3=8>7$.\\
+            \emph{Inductive Hypothesis: }$n=k,2^k>2k+1$.\\
+            \emph{Inductive Step: }$n=k+1,2^{k+1}=2^k \times 2>2(2k+1)=4k+2$, since 
+            $2k>1$, thus $4k+2>2k+3=2(k+1)+1$.\\
+            We conclude.
+        \end{proof}
+
+        \item \begin{proof}
+            \emph{Base Case: }$n=1$, holds.\\
+            \emph{Inductive Hypothesis: }Assume $n=k$ holds.\\
+            \emph{Inductive Step: }$n=k+1,\frac{k(k+1)(2k+1)}{6}+k+1=\frac{(k+1)(k+2)(2k+3)}{6}$.\\
+            We conclude.
+
+        
+        \item \begin{proof}
+            \emph{Base Case: }$n=1$, holds.\\
+            \emph{Inductive Hypothesis: }Assume n=k holds.\\
+            \emph{Inductive Step: }$n=k+1$,\\
+            \begin{align*}
+                \frac{5}{4}\cdot 8^{k+1} + 3^{3(k+1)-1}&=
+                8\cdot \frac{5}{4}\cdot 8^k + 27\cdot 3^{3k-1}\\
+                &=8(\frac{5}{4}\cdot 8^k + 3^{3k-1}) + 19\cdot 3^{3k-1}
+            \end{align*} 
+            We conclude.
+        \end{proof}
+        \end{proof}
+    \end{enumerate}
+
+    \part*{Make It Stronger}
+    \begin{enumerate}[(a).]
+        \item when n=k+1, we can get $a_{n+1} \le 3^{2^{n+1}+1}$, can not resolve the extra plus 1 in the exponential.
+        
+        \item \begin{proof}
+            Prove $a_n \le 3^{2^{n}-1}$.\\
+            \emph{Inductive Step: }$n=k+1$,\\
+            \begin{align*}
+                a_{k+1} &= 3\cdot a_k^2\\
+                &\le 3 \cdot 3^{2^{n+1}-2}\\
+                &= 3^{2^{n+1}-1}
+            \end{align*}
+            Since $3^{2^{n}-1} < 3^{2^{n}}$, We conclude.
+        \end{proof}
+    \end{enumerate}
+
+    \part*{A Coin Game}
+    \begin{proof}
+        Proved by strong induction.\\
+        \emph{Base Case: }n=1, holds.\\
+        \emph{Inductive Hypothesis: }$\forall n \in (1, k]$, holds.\\
+        \emph{Inductive Step: }
+        $n=k+1$, let $n=a+b$, where $1 \le a \le k, 1 \le b \le k$.\\
+        \begin{align*}
+            a \times b+\frac{a(a-1)}{2}+\frac{b(b-1)}{2}\\
+            &=\frac{a^2+b^2+2ab-(a+b)}{2}\\
+            &=\frac{(a+b)^2-(a+b)}{2}\\
+            &=\frac{(a+b))a+b-1}{2}\\
+            &=\frac{n(n-1)}{2}
+        \end{align*}
+        We conclude.
+    \end{proof}
+
+    \part*{Preserving Set Operations}
+    \begin{enumerate}[(a).]
+        \item \begin{align*}
+            &\forall x \in f^{-1}(A \cup B)\\
+            \implies& (f(x) \in A) \vee (f(x) \in B)\\
+            \implies& (x \in f^{-1}(A)) \vee (x \in f^{-1}(B))\\
+            \implies& x \in (f^{-1}(A) \cup f^{-1}(B))\\
+            \implies& f^{-1}(A \cup B) \subseteq f^{-1}(A) \cup f^{-1}(B)
+        \end{align*}
+
+        \begin{align*}
+            &\forall x \in f^{-1}(A) \cup f^{-1}(B)\\
+            \implies& (f(x) \in A) \cup (f(x) \in B)\\
+            \implies& f(x) \in (A \cup B)\\
+            \implies& x \in f^{-1}(A \cup B)\\
+            \implies& f^{-1}(A) \cup f^{-1}(B) \subseteq f^{-1}(A \cup B) 
+        \end{align*}
+
+        Thus, we conclude.
+
+        \item \begin{align*}
+            &\forall x \in A \cup B, f(x) \in f(A \cup B)\\
+            \implies& (x \in A) \vee (x \in B)\\
+            \implies& (f(x) \in f(A)) \vee (f(x) \in f(B))\\
+            \implies& f(x) \in (f(A) \cup f(B))\\
+            \implies& f(A \cup B) \subseteq (f(A) \cup f(f(B))
+        \end{align*}
+
+        \begin{align*}
+            &\forall f(x) \in f(A) \cup f(B)\\
+            \implies& (f(x) \in f(A)) \vee (f(x) \in f(B))\\
+            \implies& (x \in A) \vee (x \in B)\\
+            \implies& x \in (A \cup B)\\
+            \implies& f(x) \in f(A \cup B)\\
+            \implies& f(A) \cup f(B) \subseteq f(A \cup B)
+        \end{align*}
+
+        Thus, we conclude.
+    \end{enumerate}
+
+    \part*{Bijective Or Not}
+    \begin{enumerate}[(a).]
+        \item \begin{enumerate}[(i).]
+            \item Bijective. If $f(a) \neq f(b)$, then $10^{-5}a \neq 10^{-5}b, a \neq b$, 
+            so two real numbers in range cannot be mapped to the same real number in domain, thus injective.
+            $\forall f(x) \in \mathbb{R}, x = 10^{5} \cdot f(x)$, so a $f(x)$ always have a mapped x, thus surjective.
+            
+            \item Injective. Injective for the same reason as above. For surjective, 
+            $\exists f(x) \in \mathbb{R}$ has no mapped x. E.g. f(x) = $10^{-6}$, x = $10^{-1} \notin \mathbb{Z} \cup \{\pi\}$.
+        \end{enumerate}
+
+        \item Injective but not surjective. For injective, let $f(a) = \{a\}, f(b) = \{b\}, 
+        \{a\} \neq \{b\}$, then $a \neq b$, thus injective. For surjective, some set in the range like 
+        $\{a, b\}$ or $\emptyset$ has no mapped x, thus not surjective.
+
+        \item Yes if $X^{'}$ is not started with 0, since every number between 0 and 9 occurs 
+        precisely once in X, and thus precisely once in $X^{'}$ too, so no two digits in $X^{'}$ is the same. 
+        For surjective, there is two cases, if $X^{'}$ is not started with 0, since f(i) must be a digit of $X^{'}$ 
+        then $\forall f(i) \in (\mathbb{N} \cap [0,9]), \exists i \in (\mathbb{N} \cap [0,9])$, thus surjective. 
+        But when $X^{'}$ is started with 0, then only $\forall f(i) \in (\mathbb{N} \cap [1,9])$ has a mapped i in the domain, 
+        that is $(\mathbb{N} \cap [0,9])$, thus not surjective.
+    \end{enumerate}
+
+\end{document}

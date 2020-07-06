@@ -9,8 +9,32 @@
 
 
 \begin{document}
+\part*{Propositional Practice}
+    \begin{enumerate}[(a).]
+        \item 
+        $()\exists x \in \mathbb{R})(x \notin \mathbb{Q})$\\
+        True. $\sqrt{2}$ is a real number and also not rational.
+        \item $(\forall x \in \mathbb{Z})(((x \in \mathbb{N}) \vee (x < 0)) \wedge
+         \neg ((x \in \mathbb{N}) \wedge (x < 0)))$\\
+        True. We define the naturals to contain all integers which are not negative.
+        \item $(\forall x \in \mathbb{N})(6 \mid x) \implies ((2 \mid x) \vee (3 \mid x))$\\
+        True. 6k = 2(3k) = 3(2k).
+        \item All integers are rational.\\
+        True. Any interger can be represented as a/b, where a and b are coprime integers.
+        \item Integers divisibe by 2 or 3 are also divisibe by 6.\\
+        False. Counterexample, 4.
+        \item All natural number larger than 7 is a sum of two natural numbers.\\
+        True. Let a = x, b can be 0, they are both natural.
+        
+    \end{enumerate}
+
     \part*{Proof Practice}
     \begin{enumerate}[(a).]
+        \item \[ \forall n \in \mathbb{N}, n = 2k+1 \]
+        \[n^2+1 = 4k^2+4k+2 = 2(2K^2+2k+1)\]
+        \item if \[ x \ge y, (x+y-(x-y))/2 = y \]\\
+        if\[ x < y, (x+y-(y-x))/2 = x \]
+
         \item \begin{proof}
         
             \emph{Base Case: }$n=1,\frac{n(n+1)}{2}=1$,hold\\

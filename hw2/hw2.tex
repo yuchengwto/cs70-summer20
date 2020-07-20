@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\newcommand{\powerset}[1]{\mathbb{P}(#1)}
+
+\begin{document}
+\part*{Countability Practice}
+    \begin{enumerate}[(a).]
+        \item Yes, they have the same cardinality.
+        \[f(x) = \frac{1}{x} - 1\]
+        Suppose f(x) = f(y)\\
+        \begin{align*}
+            &\frac{1}{x} - 1 = \frac{1}{y} - 1\\
+            &x = y\\
+        \end{align*}
+        Hence f is one to one.\\
+        \\
+        Take any $y \in (0, \infty)$, let $x \in (0, 1), x = 1/(1+y)$. Then,
+        \[f(x) = \frac{1}{x} - 1 \]
+        \[f(x) = \frac{1}{\frac{1}{1+y}} - 1\]
+        \[f(x) =  y\]
+        So f maps x to y, hence onto.
+
+        \item Yes, it is countable. We can enumerate the strings in 
+        such a way that each string appears exactly once in the list. 
+        Firstly, list all strings of length 1 in lexicographic order, then 
+        all strings of length 2, and then length 3, and so on. Since each step, 
+        there are only finite number of strings of a particular length, any string 
+        of finite length appears in the list, and it is clear that each string 
+        appears exactly once in this list.
+
+        
+        
+
+
+    \end{enumerate}    
+
+
+
+\end{document}

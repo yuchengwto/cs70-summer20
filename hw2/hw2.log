@@ -1,70 +1,70 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.30)  20 JUL 2020 22:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.24)  23 JUL 2020 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/yucheng/Desktop/cs70-summer20/hw2/hw2.tex
-(c:/Users/yucheng/Desktop/cs70-summer20/hw2/hw2.tex
+**/Users/andall/Desktop/study/cs70-summer20/hw2/hw2
+(/Users/andall/Desktop/study/cs70-summer20/hw2/hw2.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(c:/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (c:/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) (c:/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count175
-\calc@Bcount=\count176
+\calc@Acount=\count171
+\calc@Bcount=\count172
 \calc@Adimen=\dimen135
 \calc@Bdimen=\dimen136
 \calc@Askip=\skip49
 \calc@Bskip=\skip50
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count177
+\calc@Ccount=\count173
 \calc@Cskip=\skip51
-) (c:/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen137
-)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
-) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count178
+\inf@bad=\count174
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count179
-\leftroot@=\count180
+\uproot@=\count175
+\leftroot@=\count176
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count181
-\DOTSCASE@=\count182
+\classnum@=\count177
+\DOTSCASE@=\count178
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -73,15 +73,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen139
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count183
-\c@MaxMatrixCols=\count184
+\macc@depth=\count179
+\c@MaxMatrixCols=\count180
 \dotsspace@=\muskip16
-\c@parentequation=\count185
-\dspbrk@lvl=\count186
+\c@parentequation=\count181
+\dspbrk@lvl=\count182
 \tag@help=\toks17
-\row@=\count187
-\column@=\count188
-\maxfields@=\count189
+\row@=\count183
+\column@=\count184
+\maxfields@=\count185
 \andhelp@=\toks18
 \eqnshift@=\dimen140
 \alignsep@=\dimen141
@@ -100,7 +100,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count190
+\g_MT_multlinerow_int=\count186
 \l_MT_multwidth_dim=\dimen146
 \origjot=\skip55
 \l_MT_shortvdotswithinadjustabove_dim=\dimen147
@@ -111,19 +111,19 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_shortintertext_sep=\dimen152
 \xmathstrut@box=\box47
 \xmathstrut@dim=\dimen153
-) (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (c:/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks21
-) (c:/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks22
 \thm@bodyfont=\toks23
@@ -134,94 +134,126 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip57
 \thm@headsep=\skip58
 \dth@everypar=\toks27
-) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count191
-\l__pdf_internal_box=\box48
-) (c:/Users/yucheng/Desktop/cs70-summer20/hw2/hw2.aux)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count187
+\lst@gtempboxa=\box48
+\lst@token=\toks28
+\lst@length=\count188
+\lst@currlwidth=\dimen154
+\lst@column=\count189
+\lst@pos=\count190
+\lst@lostspace=\dimen155
+\lst@width=\dimen156
+\lst@newlines=\count191
+\lst@lineno=\count192
+\lst@maxwidth=\dimen157
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count193
+\lst@skipnumbers=\count194
+\lst@framebox=\box49
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count195
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count196
+\g__pdf_backend_annotation_int=\count197
+) (./hw2.aux)
 \openout1 = `hw2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 11.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
- (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count192
-\scratchdimen=\dimen154
-\scratchbox=\box49
-\nofMPsegments=\count193
-\nofMParguments=\count194
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count195
-\MPscratchDim=\dimen155
-\MPnumerator=\count196
-\makeMPintoPDFobject=\count197
-\everyMPtoPDFconversion=\toks29
-))) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+\c@lstlisting=\count198
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--23
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
 
  []
 
 [1
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/yucheng/Desktop/cs70-summer20/hw2/hw2.aux) ) 
-Here is how much of TeX's memory you used:
- 2904 strings out of 480608
- 40200 string characters out of 5907536
- 280012 words of memory out of 5000000
- 18789 multiletter control sequences out of 15000+600000
- 534643 words of font info for 34 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 37i,8n,29p,300b,212s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on c:/Users/yucheng/Desktop/cs70-summer20/hw2/hw2.pdf (1 page, 58962 bytes).
-PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+]
+Overfull \hbox (59.5639pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
+
+Overfull \hbox (83.56415pt too wide) in paragraph at lines 97--98
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
+
+ []
+
+[5] (./hw2.aux) ) 
+Here is how much of TeX's memory you used:
+ 3773 strings out of 479418
+ 54560 string characters out of 5884585
+ 312392 words of memory out of 5000000
+ 21278 multiletter control sequences out of 15000+600000
+ 534069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 37i,8n,36p,299b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on hw2.pdf (5 pages).

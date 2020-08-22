@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\begin{document}
+\part*{Fermat's Wristband}
+\begin{enumerate}[(a)]
+    \item $k^p$ different ways.
+    \item $k^p - k$.
+    \item $\frac{k^p-k}{p}$.
+    \item $\frac{k^p-k}{p}$ count the non-equivalent ways to construct the wristband, the it must be an positive interger. \\
+    \begin{align*}
+        \frac{k^p-k}{p} &= n, n \in \mathbb{N}\\
+        k^p - k &= np\\
+        k^p &\equiv k \mod{p}
+    \end{align*}
+    Hence we get the FLT.
+\end{enumerate}    
+
+\part*{Counting, Counting, and More Counting}
+\begin{enumerate}[(a)]
+    \item $\binom{n+k}{k}$.
+    \item $3 \times 2^6$.
+    \item \begin{align}
+        \binom{52}{13}\\
+        \binom{48}{13}\\
+        \binom{48}{9}\\
+        \binom{13}{6} \cdot \binom{39}{7}
+    \end{align}
+    \item $\frac{104!}{2^{52}}$.
+    \item $\binom{99}{45} \cdot 2^{44}$.
+    \item \begin{align}
+        \frac{7!}{4!}\\
+        \frac{7!}{2! \cdot 2!}
+    \end{align}
+    \item \begin{align}
+        5!\\
+        \frac{6!}{2!}
+    \end{align}
+    \item $27^9$.
+    \item $\binom{26+9}{9}$.
+    \item $\binom{8}{2}$.
+    \item $\prod_{i=1}^{10}(2i-1)$; \\
+    
+    $\frac{20!}{10! \cdot 2^10}$.
+\end{enumerate}
+
+
+\end{document}

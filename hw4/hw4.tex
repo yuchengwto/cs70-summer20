@@ -24,16 +24,16 @@
 
 \part*{Counting, Counting, and More Counting}
 \begin{enumerate}[(a)]
-    \item $\binom{n+k}{k}$.
-    \item $3 \times 2^6$.
+    \item $\binom{n+k}{k}$
+    \item $3 \times 2^6$
     \item \begin{align}
         \binom{52}{13}\\
         \binom{48}{13}\\
         \binom{48}{9}\\
         \binom{13}{6} \cdot \binom{39}{7}
     \end{align}
-    \item $\frac{104!}{2^{52}}$.
-    \item $\binom{99}{45} \cdot 2^{44}$.
+    \item $\frac{104!}{2^{52}}$
+    \item $2^{98}$
     \item \begin{align}
         \frac{7!}{4!}\\
         \frac{7!}{2! \cdot 2!}
@@ -42,13 +42,117 @@
         5!\\
         \frac{6!}{2!}
     \end{align}
-    \item $27^9$.
-    \item $\binom{26+9}{9}$.
-    \item $\binom{8}{2}$.
-    \item $\prod_{i=1}^{10}(2i-1)$; \\
-    
-    $\frac{20!}{10! \cdot 2^10}$.
+    \item $27^9$
+    \item $\binom{26+9}{9} = \binom{35}{9}$
+    \item $\binom{8}{2}$
+    \item \begin{align}
+        \prod_{i=1}^{10}(2i-1) \\
+        \frac{20!}{10! \cdot 2^{10}}
+    \end{align}
+    \item $\binom{k+n}{k}$
+    \item $n-1$
+    \item $\binom{n-k-1+k}{k} = \binom{n-1}{k}$
 \end{enumerate}
+
+\part*{Good Khalil Hunting}
+\begin{enumerate}[(a)]
+    \item The degree of a leaf is one, and the non-left one is at least three. 
+    10 vertices mean 9 edges and total 18 degrees. Suppose there are k leaves and 10-k non-leaves, 
+    then the sum of the degrees is $k + di \cdot (10 - k) = 18, k = 10 + \frac{8}{1-di}$. 
+    k is proportional to di. When di = 3, k = 6, so $k \ge 6$. 
+    And 10 vertices have clearly at most 9 leaves, so $k \le 9$. We conclude.
+    \item Just one tree. One node with nine leaves.
+    \item d1 + d2 = 18 - 8 = 10. (d1,d2)=(5,5) or (4,6) or (3,7). Hence there are 3 trees.
+    \item d1 + d2 + d3 = 18 - 7 = 11. 3,3,5 and 3,5,3 and 3,4,4 and 4,3,4 such 4 combinations work. Hence there are 4 trees.
+    \item $\sum_{di=1}^{4} = 18 - 6 = 12, di = 3$. There are exactly two tree. One contains a degree 3 node with no leaves attached.
+    
+\end{enumerate}
+
+\part*{August Absurdity}
+\begin{enumerate}[(a)]
+    \item $2^{31}2^{15}2^{7}2^{3}2^12^0 = 2^57$
+    \item $\binom{15}{7}$
+    \item From the end to head, the end must be max or min of the sequence, the second to last number must also be max or min of the remaining, and so on. 
+    So the number of orderings is $2^7$
+    \item $\binom{14}{7} * 2$
+    \item Let n represent the number of players and r represent the number of players on team A. 
+    RHS is the previous answer. In LHS, $\binom{n}{r}$ means total count of the distribution, 
+    $\binom{n-2}{r-2}$ means the case that selecting r-2 players to team A together with Oski and tree, 
+    $\binom{n-2}{r}$ select r players to team A without Oski and tree since they both are in team B. 
+    Hence $\binom{n}{r} - (\binom{n-2}{r-2} + \binom{n-2}{r})$ should also be equal to the previous result. 
+    We conclude.
+\end{enumerate}
+
+\part*{School Carpool}
+\begin{enumerate}[(a)]
+    \item The LHS means choose n students to admit from 2n candidates. 
+    The RHS means sum all number of male admitted students case or the female. 
+    Suppose i means number of admitted male, then n-i means number of admitted female. 
+    The RHS equals $\sum_{i=0}^{n} \binom{n}{i} \cdot \binom{n}{n-i}$, 
+    since $\binom{n}{n-i} = \binom{n}{i}$, so $LHS = \sum_{i=0}^{n} \binom{n}{i}^2$. 
+    We conclude.
+
+    \item LHS: Let k represents number of male admitted applicants. 
+    Picking k males and n-k females is as previous $\binom{n}{k}^2$. 
+    Then pick a driver from k males and a driver from n-k females which can be represented as $k(n-k)$. 
+    There is at least 1 male and 1 female, so k ranges from 1 to n-1. We get LHS. \\
+
+    RHS: Firstly select one driver from n male applicants and one driver from n female. 
+    Then choose n-2 accepted students from 2n exclude 2 drivers, that is $\binom{2n-2}{n-2}$. 
+    Thus we conclude
+\end{enumerate}
+
+\part*{Flippin' Coins}
+\begin{enumerate}[(a)]
+    \item $2^3$ sample space cardinality.
+    \item All exclude first one.
+    \item \{(T,H,H), (T, H, T), (T, T, H)\}
+    \item A = \{(T,T,T)\}, B = \{(H,H,T),(H,T,H),(T,H,H)\}, $A \cup B = \{(T,T,T),(H,H,T),(H,T,H),(T,H,H)\}$
+    \item $\frac{1}{8}$
+    \item $\frac{3}{8}$
+\end{enumerate}
+
+\part*{Past Probabilified}
+\begin{enumerate}[(a)]
+    \item 
+    \begin{enumerate}[(i)]
+        \item $\Omega = \{(i,j): i,j \in GF(p)\}$
+        \item $P[(i,j)] = \frac{1}{p^2}$
+        \item $P(E_1) = (2p-1) * p[(i,j)] = \frac{2p-1}{p^2}$
+        \item $\forall i \not= 0, j \equiv i^{-1}(p-1)/2 \mod{p}, P(E_2) = \frac{p-1}{p^2}$
+    \end{enumerate}
+    \item 
+    \begin{enumerate}[(i)]
+        \item Since any n-vertex graph can be sampled, $\Omega$ is the set of all graphs on n vertices
+        \item There are at most $\frac{n(n-1)}{2}$ edges for n vertices, for each edge, we can include or exclude it, 
+        so there are $N = 2^{\frac{n(n-1)}{2}}$ graphs, $P(g) = \frac{1}{N}$
+        \item There is only one complete graph for n vertices, so the $P(E_1) = P(g)$
+        \item Exclude vertex v1, there are at most $\frac{n(n-1)}{2} - (n-1)$ edges and thus 
+        $2^{\frac{n(n-1)}{2} - (n-1)} = \frac{N}{2^{n-1}}$ graphs. Include the choices for d from n-1 vertices, 
+        we get $\frac{N}{2^{n-1}} * \binom{n-1}{d}$ graphs. 
+        Hence the $P(E_2) = \frac{N}{2^{n-1}} * \binom{n-1}{d} * \frac{1}{N} = \binom{n-1}{d} * \frac{1}{2^{n-1}}$
+    \end{enumerate}
+\end{enumerate}
+
+\part*{Unlikely Events}
+\begin{enumerate}[(a)]
+    \item I get all tails, $P = \frac{1}{|\Omega|} = \frac{1}{2^x}$
+    \item $P = \frac{5^x}{6^x}$
+    \item $P = (1-\frac{1}{10^6})^x$
+    \item \begin{enumerate}[(i)]
+        \item $\frac{1}{2^x} \le 0.1, x \ge \log_2^{10}$
+        \item $(5/6)^x \le 0.1, x \ge \log_{5/6}^{0.1}$
+        \item $(1-\frac{1}{10^6})^x \le 0.1, x \ge \log_{1-\frac{1}{10^6}}^{0.1}$
+    \end{enumerate}
+\end{enumerate}
+
+\part*{Probability Practice}
+\begin{enumerate}[(a)]
+    \item $\frac{5!\cdot 18!}{22!}$
+    \item $\frac{2^8}{3^8}$
+    \item $\frac{15^5}{20^5}$
+\end{enumerate}
+
 
 
 \end{document}
